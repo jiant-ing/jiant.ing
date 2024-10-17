@@ -1,3 +1,5 @@
 export async function printPageUrl(jiant) {
-    console.log('the current page URL is: ', await jiant.get.pageURL())
+    let url = await jiant.get.pageURL()
+    console.log('the current page URL is: ', url)
+    return url
 }
