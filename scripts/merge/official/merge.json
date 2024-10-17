@@ -1,0 +1,12 @@
+{
+    "validateParams": {
+      "customs": [{
+        "key": "rssurls",
+        "label": "URLs to merge",
+        "type": "inputs",
+        "placeholder": "Input an RSS Feed URL to merge"
+      }]
+    },
+    "DISABLE_AUTO_OPEN_PAGE_URL": true,
+    "ALLOW_PARSED_ITEMS_EMPTY": true
+}
